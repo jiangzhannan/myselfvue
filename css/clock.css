@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+.cl-main {
+	width: 500px;
+	height: 500px;
+	margin: 50px auto;
+	border-radius: 50%;
+	background-color: #ff1515;	
+	border: 1px solid #ff1515;
+}
+
+.cl-line {
+	width: 460px;
+	height: 460px;
+	margin: 20px;
+	border-radius: 50%;
+	background-color: #b70d0d;
+	border: 1px solid #b70d0d;
+}
+
+.cl-clock {
+	width: 440px;
+	height: 440px;
+	border-radius: 50%;
+	background-color: #fff;
+	border: 1px solid #fff;
+	margin: 10px;
+}
+
+.cl-circle {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #e9887a;
+	border: 1px solid #e9887a;
+	margin: 206px;
+}
+
+.cl-circleline {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #efbcb4;
+	border: 1px solid #efbcb4;
+	margin: 4.3px;
+}
+
+.cl-dot {
+	width: 10px;
+	height: 10px;	
+	border-radius: 50%;
+	background-color: #c44a3d;
+	border: 1px solid #c44a3d;
+	margin: 4.3px;
+}
+
+.cl-num {
+	position: relative;
+}
+
+.cl-num span {
+	font-size: 20px;
+	position: absolute;
+}
+
+.cl-num span:nth-child(12) {
+	top: 20px;
+	left: 215px;
+}
+
+.cl-num span:nth-child(11) {
+	top: 49px;
+	left: 122px;
+}
+
+.cl-num span:nth-child(10) {
+	top: 119px;
+	left: 46px;
+}
+
+.cl-num span:nth-child(9) {
+	top: 215px;
+	left: 20px;
+}
+
+.cl-num span:nth-child(8) {
+	top: 375px;
+	left: 122px;
+}
+
+.cl-num span:nth-child(7) {
+	top: 308px;
+	left: 46px;
+}
+
+.cl-num span:nth-child(6) {
+	top: 404px;
+	left: 215px;
+}
+
+.cl-num span:nth-child(5) {
+	top: 308px;
+	left: 377px;
+}
+
+.cl-num span:nth-child(4) {
+	top: 375px;
+	left: 316px;
+}
+
+.cl-num span:nth-child(3) {
+	top: 215px;
+	right: 20px;
+}
+
+.cl-num span:nth-child(2) {
+	top: 119px;
+	left: 377px;
+}
+
+.cl-num span:nth-child(1) {
+	top: 49px;
+	left: 316px;
+}

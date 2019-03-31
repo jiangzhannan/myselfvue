@@ -1,19 +1,53 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
-		<meta charset=utf-8>
-		<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
-		<title>sell</title>
-		<link rel=stylesheet type=text/css href=static/css/reset.css>
-		<link href=static/css/app.d416e169feff326af093d651a41cb099.css rel=stylesheet>
+		<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name=viewport>
+		<meta charset="utf-8">
+		<title>日历</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/calendar.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
 	</head>
-
 	<body>
-		<div id=app></div>
-		<script type=text/javascript src=static/js/manifest.2ae2e69a05c33dfc65f8.js></script>
-		<script type=text/javascript src=static/js/vendor.1893d0e12cb889a9a723.js></script>
-		<script type=text/javascript src=static/js/app.5b4926d6d70a58e253a8.js></script>
+		<div class="c-fixed">
+			<div class="c-calendar">
+				<div class="c-timeshow clearfix">
+					<span class="c-timenow"></span>
+					<span class="c-timetoday">今天</span>
+				</div>
+				<div class="c-week">
+					<ul class="clearfix">
+						<li>日</li><li>一</li><li>二</li><li>三</li><li>四</li><li>五</li><li>六</li>
+					</ul>
+				</div>
+				<div class="c-month">
+					<ul class="clearfix"></ul>
+					<div class="c-arrow"><i class="iconfont icon-jiantou-"></i></div>
+				</div>
+			</div>
+			<div class="c-menu">
+				<ul class="clearfix">
+					<li class="c-cursor"><a href="##">已设置提醒<i class="c-line"></i></a></li>
+					<li><a href="##">创建时间<i class="c-line"></i></a></li>
+					<li><a href="##">最后发言时间<i class="c-line"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="c-trends">
+			<ul></ul>
+		</div>
+		<div class="c-footer">
+			<ul class="clearfix">
+				<li><a href="##"><i class="c-icon iconfont icon-shandian"></i>工作</a></li>
+				<li><a href="##"><i class="c-icon iconfont icon-iconuser"></i>角色</a></li>
+				<li><a href="##"><i class="c-icon iconfont icon-yuanquan"></i>事项园</a></li>
+				<li><a href="##"><i class="c-icon iconfont icon-people"></i>同事</a></li>
+				<li class="c-cursor"><a href="##"><i class="c-icon iconfont icon-rili"></i>日历</a></li>
+			</ul>
+		</div>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/base.js"></script>
+		<script src="json/calendar.json"></script>
+		<script src="js/calendar.js"></script>
 	</body>
-
 </html>

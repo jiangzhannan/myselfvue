@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+.c-fixed {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+}
+
+.c-timeshow {
+	height: 0.9rem;
+	line-height: 0.9rem;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+}
+
+.c-timenow {
+	display: inline-block;
+}
+
+.c-timetoday {
+	position: absolute;
+	right: 0.3rem;
+}
+
+.c-week {
+	font-size: 0.28rem;
+	font-weight: bold;
+	color: #ccc;
+	position: relative;
+	z-index: 2;
+}
+
+.c-week,.c-month,.c-menu {
+	background-color: #fff;
+}
+
+.c-week li {
+	width: 14.285714%;
+	text-align: center;
+	float: left;
+	height: 0.7rem;
+	line-height: 0.7rem;
+}
+
+.c-month {
+	min-height: 0.8rem;
+}
+
+.c-month ul {
+	position: relative;
+	overflow: hidden; 
+}
+
+.c-month li {
+	float: left;
+	width: 14.285714%;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	text-align: center;
+	margin-bottom: 0.1rem;
+}
+
+.c-today {
+	background-color: #2a579a;
+	color: #fff;
+	display: inline-block;
+	width: 0.7rem;
+	border-radius: 50%;
+}
+
+.c-chosetime {
+	display: inline-block;
+	width: 0.7rem;
+	border-radius: 50%;
+	border: 0.02rem solid #2a579a;
+	color: #2a579a;
+}
+
+.c-arrow {
+	color: #5a87ca;
+	text-align: center;
+	height: 0.7rem;
+	line-height: 0.7rem;
+	position: relative;
+}
+
+.c-arrow i {
+	font-size: 0.35rem;
+	font-weight: bold;
+	height: 0.5rem;
+	line-height: 0.5rem;
+}
+
+.c-menu {
+	position: relative;
+}
+
+.c-menu ul {
+	border-top: 0.02rem solid #d8d8d8;
+	border-bottom: 0.03rem solid #d1d1d1;
+}
+
+.c-menu li {
+	font-size: 0.28rem;
+	font-weight: bold;
+	width: 33.333333333%;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	text-align: center;
+	float: left;
+	color: #7b7979;
+}
+
+.c-cursor {
+	position: relative;
+}
+
+.c-cursor .c-line {
+	width: 0.6rem;
+	height: 0.05rem;
+	background-color: #5a87ca;
+	display: inline-block;
+    position: absolute;
+    bottom: 0;
+	left: 50%;
+    margin-left: -0.3rem;
+}
+
+.c-trends {
+	margin-bottom: 1rem;
+	border-top: solid 0.15rem #f2f2f2;
+}
+
+.c-trends li {
+	padding: 0.15rem 0.2rem;
+	border-bottom: 0.02rem solid #ccc;
+	position: relative;
+}
+
+.c-trends-title {
+	font-size: 0.35rem;
+	font-weight: bold;
+	display: block;
+	text-align: left;
+}
+
+.c-trends-con {
+	display: block;
+	color: #7B7979;
+}
+
+.c-trends-cosoper {
+	display: block;
+	color: #377add;
+}
+
+.c-trends-cossend {
+	display: block;
+	color: #ffab4b;
+}
+
+.c-trends-time {
+	font-size: 0.25rem;
+	position: absolute;
+	right: 0.2rem;
+	top: 0.2rem
+}
+
+.c-trends-more {
+	font-size: 0.25rem;
+	font-weight: bold;
+	position: absolute;
+	right: 0.2rem;
+	bottom: 0.25rem
+}
+
+.c-footer {
+	font-size: 0.28rem;
+	width: 100%;
+	padding-top: 0.1rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	border-top: 0.02rem solid #ccc;
+}
+
+.c-footer li {
+	height: 0.9rem;
+	width: 20%;
+	text-align: center;
+	float: left;
+}
+
+.c-footer li a {
+	color: #ccc;
+}
+
+.c-cursor a {
+	color: #5a87ca !important;
+}
+
+.c-icon {
+	font-size: 0.4rem !important;
+	display: block;
+}
